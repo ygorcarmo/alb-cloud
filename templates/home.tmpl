@@ -1,673 +1,627 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  {{ template "head"}}
-  <body>
-    <!-- preloader -->
-    <!-- <div id="preloader">
-      <div id="loading-center">
-        <div class="loader">
-          <div class="loader-outter"></div>
-          <div class="loader-inner"></div>
+{{ define "main" }}
+
+<main class="fix">
+  <!-- banner-area -->
+  <section
+    class="banner-area-two banner-bg-two"
+    data-background="assets/img/banner/h2_banner_bg.jpg"
+  >
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="banner-content-two">
+            <span class="sub-title" data-aos="fade-up" data-aos-delay="0"
+              >We Are Expert In This Field</span
+            >
+            <h2 class="title" data-aos="fade-up" data-aos-delay="300">
+              Empowering Australian Businesses to Soar in the Digital World.
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="500">
+              ALB Cloud Consulting pioneers tailored cloud solutions for
+              Australian businesses, ensuring seamless transitions, robust
+              security, and ongoing optimization.
+            </p>
+            <div class="banner-btn">
+              <a
+                href="services.html"
+                class="btn"
+                data-aos="fade-right"
+                data-aos-delay="700"
+                >Our Services</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="banner-img text-center">
+            <img
+              src="assets/img/banner/h2_banner_img.png"
+              alt=""
+              data-aos="fade-left"
+              data-aos-delay="400"
+            />
+          </div>
         </div>
       </div>
-    </div> -->
-    <!-- preloader-end -->
+    </div>
+    <div class="banner-shape-wrap">
+      <img src="assets/img/banner/h2_banner_shape01.png" alt="" />
+      <img src="assets/img/banner/h2_banner_shape02.png" alt="" />
+      <img
+        src="assets/img/banner/h2_banner_shape03.png"
+        alt=""
+        data-aos="zoom-in-up"
+        data-aos-delay="800"
+      />
+    </div>
+  </section>
+  <!-- banner-area-end -->
 
-    <!-- Scroll-top -->
-    <button class="scroll-top scroll-to-target" data-target="html">
-      <i class="fas fa-angle-up">
-        <span class="sr-only">back to the top</span></i
-      >
-    </button>
-    <!-- Scroll-top-end-->
-
-    {{ template "header"}}
-
-    <main class="fix">
-      <!-- banner-area -->
-      <section
-        class="banner-area-two banner-bg-two"
-        data-background="assets/img/banner/h2_banner_bg.jpg"
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="banner-content-two">
-                <span class="sub-title" data-aos="fade-up" data-aos-delay="0"
-                  >We Are Expert In This Field</span
-                >
-                <h2 class="title" data-aos="fade-up" data-aos-delay="300">
-                  Empowering Australian Businesses to Soar in the Digital World.
-                </h2>
-                <p data-aos="fade-up" data-aos-delay="500">
-                  ALB Cloud Consulting pioneers tailored cloud solutions for
-                  Australian businesses, ensuring seamless transitions, robust
-                  security, and ongoing optimization.
-                </p>
-                <div class="banner-btn">
-                  <a
-                    href="services.html"
-                    class="btn"
-                    data-aos="fade-right"
-                    data-aos-delay="700"
-                    >Our Services</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="banner-img text-center">
-                <img
-                  src="assets/img/banner/h2_banner_img.png"
-                  alt=""
-                  data-aos="fade-left"
-                  data-aos-delay="400"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="banner-shape-wrap">
-          <img src="assets/img/banner/h2_banner_shape01.png" alt="" />
-          <img src="assets/img/banner/h2_banner_shape02.png" alt="" />
-          <img
-            src="assets/img/banner/h2_banner_shape03.png"
-            alt=""
-            data-aos="zoom-in-up"
-            data-aos-delay="800"
-          />
-        </div>
-      </section>
-      <!-- banner-area-end -->
-
-      <section class="features-area-three">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-7">
-              <div
-                class="section-title-two text-center mb-40 tg-heading-subheading animation-style1"
-              >
-                <span class="sub-title tg-element-title"
-                  >What We Do For You</span
-                >
-                <h2 class="title tg-element-title">
-                  The features that make our Service unique
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="features-item-wrap-two">
-            <div class="row justify-content-center">
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="features-item-three">
-                  <div class="features-icon-three">
-                    <i class="flaticon-inspiration"></i>
-                  </div>
-                  <div class="features-content-three">
-                    <h2 class="title">Finance Planning</h2>
-                    <p>
-                      Morem ipsum dolor sittemet consectetur adipiscing
-                      elitflorai psum dolor.
-                    </p>
-                    <a href="services-details.html" class="link-btn"
-                      >See Details
-                      <img src="assets/img/icons/right-arrow.svg" alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="features-item-three">
-                  <div class="features-icon-three">
-                    <i class="flaticon-layers"></i>
-                  </div>
-                  <div class="features-content-three">
-                    <h2 class="title">Business Consulting</h2>
-                    <p>
-                      Morem ipsum dolor sittemet consectetur adipiscing
-                      elitflorai psum dolor.
-                    </p>
-                    <a href="services-details.html" class="link-btn"
-                      >See Details
-                      <img src="assets/img/icons/right-arrow.svg" alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="features-item-three">
-                  <div class="features-icon-three">
-                    <i class="flaticon-calculator"></i>
-                  </div>
-                  <div class="features-content-three">
-                    <h2 class="title">Tax Advisory</h2>
-                    <p>
-                      Morem ipsum dolor sittemet consectetur adipiscing
-                      elitflorai psum dolor.
-                    </p>
-                    <a href="services-details.html" class="link-btn"
-                      >See Details
-                      <img src="assets/img/icons/right-arrow.svg" alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="features-item-three">
-                  <div class="features-icon-three">
-                    <i class="flaticon-investment"></i>
-                  </div>
-                  <div class="features-content-three">
-                    <h2 class="title">Business Audit</h2>
-                    <p>
-                      Morem ipsum dolor sittemet consectetur adipiscing
-                      elitflorai psum dolor.
-                    </p>
-                    <a href="services-details.html" class="link-btn"
-                      >See Details
-                      <img src="assets/img/icons/right-arrow.svg" alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- overview-area -->
-      <section class="overview-area pt-120 pb-120">
-        <div
-          class="overview-shape"
-          data-aos="fade-left"
-          data-aos-delay="200"
-          data-background="assets/img/images/overview_shape.png"
-        ></div>
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 col-md-10">
-              <div class="overview-img-wrap">
-                <img src="assets/img/images/overview_img01.jpg" alt="" />
-                <img src="assets/img/images/overview_img_shape.png" alt="" />
-                <div class="icon">
-                  <i class="flaticon-report-1"></i>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="overview-content">
-                <div
-                  class="section-title-two mb-20 tg-heading-subheading animation-style3"
-                >
-                  <span class="sub-title">Company Overview</span>
-                  <h2 class="title tg-element-title">
-                    Plan your business strategy with Our Experts
-                  </h2>
-                </div>
-                <p class="info-one">
-                  Morem ipsum dolor sit amet, consectetur adipiscing elita
-                  florai psum dolor sit amet, consecteture.Borem ipsum dolor sit
-                  amet, consectetur adipiscing elita florai psum.
-                </p>
-                <p class="info-two">
-                  Morem ipsum dolor sit amet, consectetur adipiscing elita
-                  florai psum dolor sit amet, consecteture.Borem.
-                </p>
-                <div class="content-bottom">
-                  <ul class="list-wrap">
-                    <li>
-                      <div class="icon">
-                        <i class="flaticon-trophy"></i>
-                      </div>
-                      <div class="content">
-                        <h2 class="count">
-                          <span class="odometer" data-count="235"></span>+
-                        </h2>
-                        <p>Best Award</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="flaticon-rating"></i>
-                      </div>
-                      <div class="content">
-                        <h2 class="count">
-                          <span class="odometer" data-count="98"></span>k
-                        </h2>
-                        <p>Happy Clients</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- overview-area-end -->
-
-      <!-- project-area -->
-      <section
-        class="project-area-two project-bg-two"
-        data-background="assets/img/bg/project_bg02.jpg"
-      >
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6">
-              <div
-                class="section-title-two mb-40 tg-heading-subheading animation-style3"
-              >
-                <span class="sub-title">Complete Projects</span>
-                <h2 class="title tg-element-title">
-                  Our recently completed <br />
-                  projects list
-                </h2>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-10">
-              <div class="project-content-top">
-                <p>
-                  Ever find yourself staring at your computer screen a good
-                  consulting slogan to come to mind? Oftentimes.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container custom-container">
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="project-item-two">
-                <div class="project-thumb-two">
-                  <img src="assets/img/project/h2_project_img01.jpg" alt="" />
-                </div>
-                <div class="project-content-two">
-                  <h2 class="title">
-                    <a href="project-details.html">Finance Consultancy</a>
-                  </h2>
-                  <span>Advisory</span>
-                  <a href="project-details.html" class="link-btn"
-                    ><i class="fas fa-chevron-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="project-item-two">
-                <div class="project-thumb-two">
-                  <img src="assets/img/project/h2_project_img02.jpg" alt="" />
-                </div>
-                <div class="project-content-two">
-                  <h2 class="title">
-                    <a href="project-details.html">Finance Consultancy</a>
-                  </h2>
-                  <span>Advisory</span>
-                  <a href="project-details.html" class="link-btn"
-                    ><i class="fas fa-chevron-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="project-item-two">
-                <div class="project-thumb-two">
-                  <img src="assets/img/project/h2_project_img03.jpg" alt="" />
-                </div>
-                <div class="project-content-two">
-                  <h2 class="title">
-                    <a href="project-details.html">Finance Consultancy</a>
-                  </h2>
-                  <span>Advisory</span>
-                  <a href="project-details.html" class="link-btn"
-                    ><i class="fas fa-chevron-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- project-area-end -->
-
-      <!-- cta-area -->
-      <section class="cta-area pb-2">
-        <div class="container">
+  <section class="features-area-three">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-7">
           <div
-            class="cta-inner-wrap"
-            data-background="assets/img/bg/cta_bg.jpg"
+            class="section-title-two text-center mb-40 tg-heading-subheading animation-style1"
           >
-            <div class="row align-items-center">
-              <div class="col-lg-9">
-                <div class="cta-content">
-                  <div class="cta-info-wrap">
-                    <div class="icon">
-                      <i class="flaticon-phone-call"></i>
-                    </div>
-                    <div class="content">
-                      <span>Call For More Info</span>
-                      <a href="tel:0123456789">+123 8989 444</a>
-                    </div>
-                  </div>
-                  <h2 class="title">
-                    Let’s Request a Schedule For Free Consultation
-                  </h2>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="cta-btn text-end">
-                  <a href="contact.html" class="btn">Contact Us</a>
-                </div>
-              </div>
-            </div>
+            <span class="sub-title tg-element-title">What We Do For You</span>
+            <h2 class="title tg-element-title">
+              The features that make our Service unique
+            </h2>
           </div>
         </div>
-      </section>
-      <!-- cta-area-end -->
-
-      <!-- testimonial-area -->
-      <section
-        class="testimonial-area-two testimonial-bg-two"
-        data-background="assets/img/bg/h2_testimonial_bg.jpg"
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7">
-              <div
-                class="section-title-two white-title text-center mb-50 tg-heading-subheading animation-style3"
-              >
-                <span class="sub-title">Our Testimonials</span>
-                <h2 class="title tg-element-title">
-                  What Customers Say’s About Our Gerow Services
-                </h2>
+      </div>
+      <div class="features-item-wrap-two">
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="features-item-three">
+              <div class="features-icon-three">
+                <i class="flaticon-inspiration"></i>
               </div>
-            </div>
-          </div>
-          <div class="testimonial-item-wrap-two">
-            <div class="row testimonial-active-two">
-              <div class="col-lg-6">
-                <div class="testimonial-item-two">
-                  <div class="testimonial-content-two">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p>
-                      “ Morem ipsum dolor sit amet, consectetur adipiscing elita
-                      florai sum dolor sit amet, consecteture.Borem ipsum dolor
-                      sit amet, consectetur.
-                    </p>
-                    <div class="testimonial-avatar">
-                      <div class="avatar-thumb">
-                        <img
-                          src="assets/img/images/testi_avatar01.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="avatar-info">
-                        <h2 class="title">Mr.Robey Alexa</h2>
-                        <span>CEO, Gerow Agency</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="testimonial-item-two">
-                  <div class="testimonial-content-two">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p>
-                      “ Morem ipsum dolor sit amet, consectetur adipiscing elita
-                      florai sum dolor sit amet, consecteture.Borem ipsum dolor
-                      sit amet, consectetur.
-                    </p>
-                    <div class="testimonial-avatar">
-                      <div class="avatar-thumb">
-                        <img
-                          src="assets/img/images/testi_avatar02.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="avatar-info">
-                        <h2 class="title">Robert Fox</h2>
-                        <span>CEO, Gerow Agency</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="testimonial-item-two">
-                  <div class="testimonial-content-two">
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p>
-                      “ Morem ipsum dolor sit amet, consectetur adipiscing elita
-                      florai sum dolor sit amet, consecteture.Borem ipsum dolor
-                      sit amet, consectetur.
-                    </p>
-                    <div class="testimonial-avatar">
-                      <div class="avatar-thumb">
-                        <img
-                          src="assets/img/images/testi_avatar01.png"
-                          alt=""
-                        />
-                      </div>
-                      <div class="avatar-info">
-                        <h2 class="title">Mr.Robey Alexa</h2>
-                        <span>CEO, Gerow Agency</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-nav-two"></div>
-          </div>
-        </div>
-      </section>
-      <!-- testimonial-area-end -->
-
-      <!-- blog-area -->
-      <section
-        class="blog-area-two blog-bg-two"
-        data-background="assets/img/bg/h2_blog_bg.jpg"
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div
-                class="section-title-two text-center mb-50 tg-heading-subheading animation-style3"
-              >
-                <span class="sub-title">News & Blogs</span>
-                <h2 class="title tg-element-title">Read Our Latest Updates</h2>
+              <div class="features-content-three">
+                <h2 class="title">Finance Planning</h2>
                 <p>
-                  Ever find yourself staring at your computer screen a good
-                  consulting slogan to come to mind? Oftentimes.
+                  Morem ipsum dolor sittemet consectetur adipiscing elitflorai
+                  psum dolor.
                 </p>
+                <a href="services-details.html" class="link-btn"
+                  >See Details
+                  <img src="assets/img/icons/right-arrow.svg" alt=""
+                /></a>
               </div>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="blog-post-item-two">
-                <div class="blog-post-thumb-two">
-                  <a href="blog-details.html"
-                    ><img src="assets/img/blog/h2_blog_img01.jpg" alt=""
-                  /></a>
-                  <a href="blog.html" class="tag">Development</a>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="features-item-three">
+              <div class="features-icon-three">
+                <i class="flaticon-layers"></i>
+              </div>
+              <div class="features-content-three">
+                <h2 class="title">Business Consulting</h2>
+                <p>
+                  Morem ipsum dolor sittemet consectetur adipiscing elitflorai
+                  psum dolor.
+                </p>
+                <a href="services-details.html" class="link-btn"
+                  >See Details
+                  <img src="assets/img/icons/right-arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="features-item-three">
+              <div class="features-icon-three">
+                <i class="flaticon-calculator"></i>
+              </div>
+              <div class="features-content-three">
+                <h2 class="title">Tax Advisory</h2>
+                <p>
+                  Morem ipsum dolor sittemet consectetur adipiscing elitflorai
+                  psum dolor.
+                </p>
+                <a href="services-details.html" class="link-btn"
+                  >See Details
+                  <img src="assets/img/icons/right-arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="features-item-three">
+              <div class="features-icon-three">
+                <i class="flaticon-investment"></i>
+              </div>
+              <div class="features-content-three">
+                <h2 class="title">Business Audit</h2>
+                <p>
+                  Morem ipsum dolor sittemet consectetur adipiscing elitflorai
+                  psum dolor.
+                </p>
+                <a href="services-details.html" class="link-btn"
+                  >See Details
+                  <img src="assets/img/icons/right-arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- overview-area -->
+  <section class="overview-area pt-120 pb-120">
+    <div
+      class="overview-shape"
+      data-aos="fade-left"
+      data-aos-delay="200"
+      data-background="assets/img/images/overview_shape.png"
+    ></div>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 col-md-10">
+          <div class="overview-img-wrap">
+            <img src="assets/img/images/overview_img01.jpg" alt="" />
+            <img src="assets/img/images/overview_img_shape.png" alt="" />
+            <div class="icon">
+              <i class="flaticon-report-1"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="overview-content">
+            <div
+              class="section-title-two mb-20 tg-heading-subheading animation-style3"
+            >
+              <span class="sub-title">Company Overview</span>
+              <h2 class="title tg-element-title">
+                Plan your business strategy with Our Experts
+              </h2>
+            </div>
+            <p class="info-one">
+              Morem ipsum dolor sit amet, consectetur adipiscing elita florai
+              psum dolor sit amet, consecteture.Borem ipsum dolor sit amet,
+              consectetur adipiscing elita florai psum.
+            </p>
+            <p class="info-two">
+              Morem ipsum dolor sit amet, consectetur adipiscing elita florai
+              psum dolor sit amet, consecteture.Borem.
+            </p>
+            <div class="content-bottom">
+              <ul class="list-wrap">
+                <li>
+                  <div class="icon">
+                    <i class="flaticon-trophy"></i>
+                  </div>
+                  <div class="content">
+                    <h2 class="count">
+                      <span class="odometer" data-count="235"></span>+
+                    </h2>
+                    <p>Best Award</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="flaticon-rating"></i>
+                  </div>
+                  <div class="content">
+                    <h2 class="count">
+                      <span class="odometer" data-count="98"></span>k
+                    </h2>
+                    <p>Happy Clients</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- overview-area-end -->
+
+  <!-- project-area -->
+  <section
+    class="project-area-two project-bg-two"
+    data-background="assets/img/bg/project_bg02.jpg"
+  >
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6">
+          <div
+            class="section-title-two mb-40 tg-heading-subheading animation-style3"
+          >
+            <span class="sub-title">Complete Projects</span>
+            <h2 class="title tg-element-title">
+              Our recently completed <br />
+              projects list
+            </h2>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10">
+          <div class="project-content-top">
+            <p>
+              Ever find yourself staring at your computer screen a good
+              consulting slogan to come to mind? Oftentimes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container custom-container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="project-item-two">
+            <div class="project-thumb-two">
+              <img src="assets/img/project/h2_project_img01.jpg" alt="" />
+            </div>
+            <div class="project-content-two">
+              <h2 class="title">
+                <a href="project-details.html">Finance Consultancy</a>
+              </h2>
+              <span>Advisory</span>
+              <a href="project-details.html" class="link-btn"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="project-item-two">
+            <div class="project-thumb-two">
+              <img src="assets/img/project/h2_project_img02.jpg" alt="" />
+            </div>
+            <div class="project-content-two">
+              <h2 class="title">
+                <a href="project-details.html">Finance Consultancy</a>
+              </h2>
+              <span>Advisory</span>
+              <a href="project-details.html" class="link-btn"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="project-item-two">
+            <div class="project-thumb-two">
+              <img src="assets/img/project/h2_project_img03.jpg" alt="" />
+            </div>
+            <div class="project-content-two">
+              <h2 class="title">
+                <a href="project-details.html">Finance Consultancy</a>
+              </h2>
+              <span>Advisory</span>
+              <a href="project-details.html" class="link-btn"
+                ><i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- project-area-end -->
+
+  <!-- cta-area -->
+  <section class="cta-area pb-2">
+    <div class="container">
+      <div class="cta-inner-wrap" data-background="assets/img/bg/cta_bg.jpg">
+        <div class="row align-items-center">
+          <div class="col-lg-9">
+            <div class="cta-content">
+              <div class="cta-info-wrap">
+                <div class="icon">
+                  <i class="flaticon-phone-call"></i>
                 </div>
-                <div class="blog-post-content-two">
-                  <h2 class="title">
-                    <a href="blog-details.html"
-                      >Meet AutoManage, the best AI management tools</a
-                    >
-                  </h2>
-                  <p>
-                    Everything you need to start building area atching presence
-                    for your business.
-                  </p>
-                  <div class="blog-meta">
-                    <ul class="list-wrap">
-                      <li>
-                        <a href="blog-details.html"
-                          ><img
-                            src="assets/img/blog/blog_avatar01.png"
-                            alt=""
-                          />Kat Doven</a
-                        >
-                      </li>
-                      <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
-                    </ul>
+                <div class="content">
+                  <span>Call For More Info</span>
+                  <a href="tel:0123456789">+123 8989 444</a>
+                </div>
+              </div>
+              <h2 class="title">
+                Let’s Request a Schedule For Free Consultation
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="cta-btn text-end">
+              <a href="contact.html" class="btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cta-area-end -->
+
+  <!-- testimonial-area -->
+  <section
+    class="testimonial-area-two testimonial-bg-two"
+    data-background="assets/img/bg/h2_testimonial_bg.jpg"
+  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div
+            class="section-title-two white-title text-center mb-50 tg-heading-subheading animation-style3"
+          >
+            <span class="sub-title">Our Testimonials</span>
+            <h2 class="title tg-element-title">
+              What Customers Say’s About Our Gerow Services
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-item-wrap-two">
+        <div class="row testimonial-active-two">
+          <div class="col-lg-6">
+            <div class="testimonial-item-two">
+              <div class="testimonial-content-two">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  “ Morem ipsum dolor sit amet, consectetur adipiscing elita
+                  florai sum dolor sit amet, consecteture.Borem ipsum dolor sit
+                  amet, consectetur.
+                </p>
+                <div class="testimonial-avatar">
+                  <div class="avatar-thumb">
+                    <img src="assets/img/images/testi_avatar01.png" alt="" />
+                  </div>
+                  <div class="avatar-info">
+                    <h2 class="title">Mr.Robey Alexa</h2>
+                    <span>CEO, Gerow Agency</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="blog-post-item-two">
-                <div class="blog-post-thumb-two">
-                  <a href="blog-details.html"
-                    ><img src="assets/img/blog/h2_blog_img02.jpg" alt=""
-                  /></a>
-                  <a href="blog.html" class="tag">Business</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="testimonial-item-two">
+              <div class="testimonial-content-two">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="blog-post-content-two">
-                  <h2 class="title">
-                    <a href="blog-details.html"
-                      >Meet AutoManage, the best AI management tools</a
-                    >
-                  </h2>
-                  <p>
-                    Everything you need to start building area atching presence
-                    for your business.
-                  </p>
-                  <div class="blog-meta">
-                    <ul class="list-wrap">
-                      <li>
-                        <a href="blog-details.html"
-                          ><img
-                            src="assets/img/blog/blog_avatar01.png"
-                            alt=""
-                          />Kat Doven</a
-                        >
-                      </li>
-                      <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
-                    </ul>
+                <p>
+                  “ Morem ipsum dolor sit amet, consectetur adipiscing elita
+                  florai sum dolor sit amet, consecteture.Borem ipsum dolor sit
+                  amet, consectetur.
+                </p>
+                <div class="testimonial-avatar">
+                  <div class="avatar-thumb">
+                    <img src="assets/img/images/testi_avatar02.png" alt="" />
+                  </div>
+                  <div class="avatar-info">
+                    <h2 class="title">Robert Fox</h2>
+                    <span>CEO, Gerow Agency</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-10">
-              <div class="blog-post-item-two">
-                <div class="blog-post-thumb-two">
-                  <a href="blog-details.html"
-                    ><img src="assets/img/blog/h2_blog_img03.jpg" alt=""
-                  /></a>
-                  <a href="blog.html" class="tag">Tax Advisory</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="testimonial-item-two">
+              <div class="testimonial-content-two">
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="blog-post-content-two">
-                  <h2 class="title">
-                    <a href="blog-details.html"
-                      >Meet AutoManage, the best AI management tools</a
-                    >
-                  </h2>
-                  <p>
-                    Everything you need to start building area atching presence
-                    for your business.
-                  </p>
-                  <div class="blog-meta">
-                    <ul class="list-wrap">
-                      <li>
-                        <a href="blog-details.html"
-                          ><img
-                            src="assets/img/blog/blog_avatar01.png"
-                            alt=""
-                          />Kat Doven</a
-                        >
-                      </li>
-                      <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
-                    </ul>
+                <p>
+                  “ Morem ipsum dolor sit amet, consectetur adipiscing elita
+                  florai sum dolor sit amet, consecteture.Borem ipsum dolor sit
+                  amet, consectetur.
+                </p>
+                <div class="testimonial-avatar">
+                  <div class="avatar-thumb">
+                    <img src="assets/img/images/testi_avatar01.png" alt="" />
+                  </div>
+                  <div class="avatar-info">
+                    <h2 class="title">Mr.Robey Alexa</h2>
+                    <span>CEO, Gerow Agency</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- blog-area-end -->
+        <div class="testimonial-nav-two"></div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial-area-end -->
 
-      <!-- request-area -->
-      <section class="request-area-two">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="request-content-two">
-                <div
-                  class="section-title-two white-title mb-15 tg-heading-subheading animation-style3"
+  <!-- blog-area -->
+  <section
+    class="blog-area-two blog-bg-two"
+    data-background="assets/img/bg/h2_blog_bg.jpg"
+  >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div
+            class="section-title-two text-center mb-50 tg-heading-subheading animation-style3"
+          >
+            <span class="sub-title">News & Blogs</span>
+            <h2 class="title tg-element-title">Read Our Latest Updates</h2>
+            <p>
+              Ever find yourself staring at your computer screen a good
+              consulting slogan to come to mind? Oftentimes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="blog-post-item-two">
+            <div class="blog-post-thumb-two">
+              <a href="blog-details.html"
+                ><img src="assets/img/blog/h2_blog_img01.jpg" alt=""
+              /></a>
+              <a href="blog.html" class="tag">Development</a>
+            </div>
+            <div class="blog-post-content-two">
+              <h2 class="title">
+                <a href="blog-details.html"
+                  >Meet AutoManage, the best AI management tools</a
                 >
-                  <h2 class="title tg-element-title">Request a Call Back</h2>
-                </div>
-                <p>
-                  Ever find yourself staring at your computer screen a good
-                  consulting slogan to come to mind? Oftentimes.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="request-form-wrap">
-                <form action="#">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-grp">
-                        <input type="text" placeholder="Name *" />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-grp">
-                        <input type="email" placeholder="E-mail *" />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-grp">
-                        <input type="number" placeholder="Phone *" />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <button type="submit">Send Now</button>
-                    </div>
-                  </div>
-                </form>
+              </h2>
+              <p>
+                Everything you need to start building area atching presence for
+                your business.
+              </p>
+              <div class="blog-meta">
+                <ul class="list-wrap">
+                  <li>
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/blog_avatar01.png" alt="" />Kat
+                      Doven</a
+                    >
+                  </li>
+                  <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="request-shape-wrap">
-          <img src="assets/img/images/h2_request_shape01.png" alt="" />
-          <img
-            src="assets/img/images/h2_request_shape02.png"
-            alt=""
-            data-aos="fade-left"
-            data-aos-delay="200"
-          />
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="blog-post-item-two">
+            <div class="blog-post-thumb-two">
+              <a href="blog-details.html"
+                ><img src="assets/img/blog/h2_blog_img02.jpg" alt=""
+              /></a>
+              <a href="blog.html" class="tag">Business</a>
+            </div>
+            <div class="blog-post-content-two">
+              <h2 class="title">
+                <a href="blog-details.html"
+                  >Meet AutoManage, the best AI management tools</a
+                >
+              </h2>
+              <p>
+                Everything you need to start building area atching presence for
+                your business.
+              </p>
+              <div class="blog-meta">
+                <ul class="list-wrap">
+                  <li>
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/blog_avatar01.png" alt="" />Kat
+                      Doven</a
+                    >
+                  </li>
+                  <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- request-area-end -->
-    </main>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="blog-post-item-two">
+            <div class="blog-post-thumb-two">
+              <a href="blog-details.html"
+                ><img src="assets/img/blog/h2_blog_img03.jpg" alt=""
+              /></a>
+              <a href="blog.html" class="tag">Tax Advisory</a>
+            </div>
+            <div class="blog-post-content-two">
+              <h2 class="title">
+                <a href="blog-details.html"
+                  >Meet AutoManage, the best AI management tools</a
+                >
+              </h2>
+              <p>
+                Everything you need to start building area atching presence for
+                your business.
+              </p>
+              <div class="blog-meta">
+                <ul class="list-wrap">
+                  <li>
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/blog_avatar01.png" alt="" />Kat
+                      Doven</a
+                    >
+                  </li>
+                  <li><i class="far fa-calendar"></i>22 Jan, 2023</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog-area-end -->
 
-    {{template "footer"}}
-    {{template "js"}}
-  </body>
-</html>
+  <!-- request-area -->
+  <section class="request-area-two">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="request-content-two">
+            <div
+              class="section-title-two white-title mb-15 tg-heading-subheading animation-style3"
+            >
+              <h2 class="title tg-element-title">Request a Call Back</h2>
+            </div>
+            <p>
+              Ever find yourself staring at your computer screen a good
+              consulting slogan to come to mind? Oftentimes.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="request-form-wrap">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-grp">
+                    <input type="text" placeholder="Name *" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-grp">
+                    <input type="email" placeholder="E-mail *" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-grp">
+                    <input type="number" placeholder="Phone *" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <button type="submit">Send Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="request-shape-wrap">
+      <img src="assets/img/images/h2_request_shape01.png" alt="" />
+      <img
+        src="assets/img/images/h2_request_shape02.png"
+        alt=""
+        data-aos="fade-left"
+        data-aos-delay="200"
+      />
+    </div>
+  </section>
+  <!-- request-area-end -->
+</main>
+
+{{ end }}

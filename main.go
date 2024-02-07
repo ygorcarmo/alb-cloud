@@ -31,6 +31,7 @@ func main() {
 	server.Handle("/", fs)
 
 	server.HandleFunc("/home", homeHandler)
+	server.HandleFunc("/about-us", aboutHandler)
 
 	err := http.ListenAndServe(":3000", server)
 
@@ -40,10 +41,11 @@ func main() {
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
+	tmpl["home"].ExecuteTemplate(w, "base-layout.tmpl", nil)
+}
 
-	fmt.Println(tmpl)
-
-	tmpl["new-home"].ExecuteTemplate(w, "base-layout.tmpl", nil)
+func aboutHandler(w http.ResponseWriter, r *http.Request) {
+	tmpl["about"].ExecuteTemplate(w, "base-layout.tmpl", nil)
 }
 
 func loadTemplates() {
@@ -55,7 +57,8 @@ func loadTemplates() {
 		panic(err)
 	}
 
-	tmpl["new-home"] = template.Must(template.ParseFS(templateFolder, "base-layout.tmpl", "new-home.tmpl"))
+	tmpl["home"] = template.Must(template.ParseFS(templateFolder, "base-layout.tmpl", "home.tmpl"))
 	tmpl["custom"] = template.Must(template.ParseFS(templateFolder, "base-layout.tmpl", "custom.tmpl"))
-	tmpl["nothing"] = template.Must(template.ParseFS(templateFolder, "base-layout.tmpl", "nothing.tmpl"))
+	tmpl["about"] = template.Must(template.ParseFS(templateFolder, "base-layout.tmpl", "about.tmpl"))
+
 }
